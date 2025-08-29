@@ -1,6 +1,6 @@
 const allSection = document.getElementById("all-section");
 const coine = document.getElementById("coine");
-const heardCounter = document.getElementById("heard");
+const heartCounter = document.getElementById("heart");
 const copeCounter = document.getElementById("copeBtn");
 const history = document.getElementById("histroy");
 const clearBtn = document.getElementById("clear-btn");
@@ -13,7 +13,7 @@ allSection.addEventListener("click", function (e) {
 
   // HEART CLICK
   if (target.classList.contains("fa-heart")) {
-    heardCounter.innerText = love++;
+    heartCounter.innerText = love++;
   }
 
   // COPY CLICK
